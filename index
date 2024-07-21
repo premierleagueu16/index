@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="WmmE3kXxbSnBZ_UhakMt0I6gkrL7ND3gv5Y17hwWuMc" />
+    <!-- Other meta tags -->
+    <meta property="og:title" content="Albion Demiri: Player profile">
+    <meta property="og:description" content="Personal Information. Full name: Albion Demiri. Age: 16 (15.09.2007). Current Club: FC Everton. League: PL2 U16. Nationality: Albanian. Kit Number: 10.">
+    <meta property="og:image" content="./IMG_3442.JPG">
+    <meta property="og:url" content="https://albiondemiriprofile.w3spaces.com/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Profile - Albion Demiri</title>
+      <link rel="icon" type="image/x-icon" href="https://cdn.vectorstock.com/i/preview-1x/95/46/initial-letter-w-with-arrow-logo-vector-48729546.jpg">
+    <style>
+        body {
+            font-family: 'Akaya Kanadaka', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #ff000b;
+            color: #fff;
+            font-size: 1.8em;
+            border-bottom: 2px solid #0056b3;
+        }
+        .title {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+.menu-button {
+  position: absolute;
+  top: 23px;
+  left: 23px;
+  background-color: #fff;
+  color: #ff000b;
+  border: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-button:hover {
+  background-color: #444;
+}
+
+.menu-button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+        .club-stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.club-stats-table th, .club-stats-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.club-stats-table th {
+  background-color: #ff000b;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 2px solid #0056b3;
+}
+
+.club-stats-table tr {
+  background-color: #fff;
+}
+
+.club-stats-table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.club-stats-table tr:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+.international-stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.international-stats-table th, .international-stats-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  color: #333;
+}
+
+.international-stats-table th {
+  background-color: #ff000b;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 2px solid #2980b9;
+}
+
+.international-stats-table tr {
+  background-color: #fff;
+}
+
+.international-stats-table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.international-stats-table tr:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+        section h2 {
+            margin-top: 0;
+            flex: 100%;
+        }
+        .profile-image {
+            width: 140px;
+            height: 175px;
+            margin-right: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .robot {
+            width: 260px;
+            height: 260px;
+           margin-right: 20px;
+            padding: 20px;
+        }
+        .info {
+            flex: 1;
+        }
+        .stats-comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.stats-comparison-table thead {
+  background-color: #ff000b;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 2px solid #0056b3;
+}
+
+.stats-comparison-table th, .stats-comparison-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.stats-comparison-table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.stats-comparison-table tr:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+        .trophies {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .trophies li {
+            background-color: #ff000b;
+            color: #fff;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 4px;
+            text-align: center;
+            min-width: 200px;
+        }
+        .clubs {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .clubs h2 {
+            flex: 100%;
+            margin-top: 0;
+        }
+        .club {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            flex: 100%;
+        }
+        .club img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .club p {
+            margin: 0;
+        }
+        .club-details {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Player Profile - Albion Demiri</h1>
+        </header>
+
+        <section>
+               <img class="profile-image" src="./IMG_3442.JPG" alt="Albion Demiri">
+                <div class="info">
+                <h2>Personal Information</h2>
+                <p><strong>Full name:</strong> Albion Demiri</p>
+                <p><strong>Age:</strong> 16 (15.09.2007)</p>
+                <p><strong>Current Club:</strong> FC Everton</p>
+                <p><strong>League:</strong> PL2 U16</p>
+                <p><strong>Nationality:</strong> Albanian <span class="flag">🇦🇱</span></p>
+                <p><strong>Kit Number:</strong> 10</p>
+                <p><strong>Main positions:</strong> Attacking midfielder</p>
+                <p><strong>Other positions:</strong> Winger</p>
+            </div>
+            <img class="robot" src="https://pbs.twimg.com/media/GQ823HkWoAAbWzm?format=jpg&name=small" alt="Robot Image">
+        </section>
+
+       <section>
+  <h2>Club Stats 2023/24 (FC Everton)</h2>
+  <table class="club-stats-table">
+    <tr>
+      <th>Games</th>
+      <th>Goals</th>
+      <th>Assists</th>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </table> 
+</section>
+
+ 
+
+        <section>
+            <h2>Trophies</h2>
+            <ul class="trophies">
+            </ul>
+        </section>
+
+        <section class="clubs">
+            <h2>Former and Current Clubs</h2>
+            <div class="club">
+                <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/345.png" alt="Tranmere Rovers Logo">
+                <div class="club-details">
+                    <p><strong>Tranmere Rovers U-15 🇬🇧:</strong> 2022</p>
+                </div>
+            </div>
+            <div class="club">
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg" alt="Everton Logo">
+                <div class="club-details">
+                    <p><strong>Everton U-16 🇬🇧:</strong> 2022-2023</p>
+                </div>
+            </div>
+        </section>
+
+       <section>
+  <h2>Stats Comparison</h2>
+  <table class="stats-comparison-table">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Club</th>
+        <th>Games</th>
+        <th>Goals</th>
+        <th>Assists</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2022</td>
+        <td>Tranmere Rovers U-15</td>
+        <td>6</td>
+        <td>10</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>2022-2023</td>
+        <td>Everton U-16</td>
+        <td>25</td>
+        <td>8</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+        <section>
+            <h2>Albion's Profiles</h2>
+            <div class="social-links">
+           <a href="https://www.transfermarkt.com/albion-demiri/profil/spieler/1221712" target="_blank">Transfermarkt</a>          
+           <a href="https://www.instagram.com/albademirii/" target="_blank">Instagram</a>            
+
+            </div>
+        </section>
+
+    
+
+        <button class="menu-button">
+            <span class="menu-lines"></span>Home
+        </button>
+    </div>
+</body>
+</html>
